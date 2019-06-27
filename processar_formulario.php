@@ -1,5 +1,5 @@
 <?php
-$link = mysqli_connect("localhost", "root", "m", "projeto_web_2019", "formulario.php");
+$link = mysqli_connect("localhost", "root", "m", "projeto_web_2019", "formulario.html");
 
 if (!$link) {
     echo "Error: Unable to connect to MySQL." . PHP_EOL;
